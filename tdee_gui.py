@@ -185,7 +185,6 @@ class TDEEApp(tk.Tk):
 if __name__ == "__main__":
     # Use ttk theme for nicer defaults
     try:
-        from tkinter import _get_default_root
         app = TDEEApp()
         style = ttk.Style()
         if "clam" in style.theme_names():
